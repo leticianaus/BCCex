@@ -1,25 +1,59 @@
 <html>
-	<head>
-		<style>
-			.estilo{
-				background-color: lightblue;
-				colour: darkgray;
-				border: none;
-				font-family: 
-			}
-		</style>
-	</head>
 
-	<body>
+    <header>
 
-		<input type="text" name="nome" placeholder="Nome" />
-		<br>
-		<input type="number" name="age" placeholder="Idade">
-		<br>
-		<input type="text" name="email" placeholder="E-mail">
-		<br>
-		<button class=".estilo">Acessar</button>
+        <style>
+            .savebutton{
+                background-color: green;
+                color: white;
+                border: none;
+                padding-top: 20px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+                font-family: Arial;
+                font-size: 18;
+            }
+            .boxes{
+                color: gray;
+                border-style: solid;
+                border-color: lightgray;
+                border-width: 1.5px;
+                border-radius: 2.5px;
+                padding-top: 17px;
+                padding-left: 18px;
+                padding-right: 22px;
+                padding-bottom: 17px;
+                font-family: Arial;
+                font-size: 18;
+            }
+        </style>
 
-	</body>
+    </header>
+
+    <body>
+
+        <input class="boxes" name="name" size="32" placeholder="your name here, fucker"/>
+        <br>
+
+        <input class="boxes" name="lastname" size="32" placeholder="last name here"/>
+        <br>
+
+        <input class="boxes" name="email" size="32" placeholder="@bitch.com"/>
+        <br>
+
+        <input class="boxes" name="matricula" size="32" placeholder="registration"/>
+        <br>
+
+        <input class="boxes" name="username" size="32" placeholder="russian name"/>
+        <br>
+
+        <input class="boxes" type="password" size="32" placeholder="secret code"/>
+        <br>
+        <br>
+
+        <button class="savebutton" onclick="alert('shit saved succesfully')"> save them shit </button>
+
+    </body>
 
 </html>
